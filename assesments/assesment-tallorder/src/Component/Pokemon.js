@@ -18,8 +18,6 @@ function Pokemon(props) {
         props.parentRemovePokemon(index);
     }
 
-    console.log(props);
-
     return (
         <>
             <section className="pokedex_grid">
