@@ -40,7 +40,7 @@ function Pokemon(props) {
                         
                         <button className="btn pokemon_delete_btn" onClick={() => onDelete(i)}><FontAwesomeIcon icon={faTrash} /></button>
 
-                        { showModal == i &&
+                        { showModal === i &&
                             <Modal model={v} parentCloseModal={closeModal} />
                         }                    
                     </div>                
